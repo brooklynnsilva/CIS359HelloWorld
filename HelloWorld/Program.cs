@@ -1,10 +1,11 @@
-﻿namespace HelloWorld;
-
-class Program
+﻿using System;
+namespace Hello_World
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello there, World!");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }
-
